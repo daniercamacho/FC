@@ -11,7 +11,8 @@ session_start();
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Fuerza Ciudadana</title>
+  <title>Fuerza Ciudadana Cerro</title>
+
 
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -108,6 +109,7 @@ CUERPO DOCUMENTO
          $_GET["ruta"] == "clientes" ||
          $_GET["ruta"] == "ventas" ||
          $_GET["ruta"] == "crear-venta" ||
+         $_GET["ruta"] == "reportes" ||
          $_GET["ruta"] == "reportes" ||
          $_GET["ruta"] == "salir"){
 
